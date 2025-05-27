@@ -14,7 +14,9 @@ ALLOWED_GROUPS = ["new_release_movies_202", "amovies2024"]
 CHANNELS = ["mycinema225", "goldminesmovies23"]
 SHORTNER_API = "69888fba01d81429d92880e72753b1a67e4c0274"
 
-WELCOME_MESSAGE = 
+WELCOME_MESSAGE = welcome_text = "Welcome to MY CINEMA PRO bot where you can search movies and get direct links privately."
+
+note_text = "Please don't forget to start me first!"
 welcome_text = "Welcome to MY CINEMA PRO bot where you can search movies and get direct links privately."
 Your personal movie assistant is here!  
  welcome_text = "Search your favorite movies in the group, and I'll instantly deliver them to your private chat - safely and directly!"
