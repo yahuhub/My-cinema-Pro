@@ -49,7 +49,7 @@ async def search_movie(_, message: Message):
                     original_link = f"https://t.me/{channel}/{msg.id}"
                     short_link = shorten_link(original_link)
                     try:
-                        await message.from_user.send(f"**Movie Found:** {query.title()}
+                        await message.from_user.send(f"**Movie Found:**" {query.title()}
 
 🔗 [Click Here]({short_link}) to download/view.")
                         found = True
