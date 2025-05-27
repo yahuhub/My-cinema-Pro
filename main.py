@@ -19,7 +19,7 @@ WELCOME_MESSAGE = welcome_text = "Welcome to MY CINEMA PRO bot where you can sea
 note_text = "Please don't forget to start me first!"
 welcome_text = "Welcome to MY CINEMA PRO bot where you can search movies and get direct links privately."
 "Your personal movie assistant is here!"  
- welcome_text = "Search your favorite movies in the group, and I'll instantly deliver them to your private chat - safely and directly!"
+ welcome_text = "Search your favorite movies in the group,and I'll instantly deliver them to your private chat-safely and directly!"
 note_text = "Please don't forget to start me first!"
 
 For any help, contact admin: @Dm_Anonymous  
