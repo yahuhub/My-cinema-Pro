@@ -4,8 +4,8 @@ from pyrogram.types import Message
 from pyrogram.errors import PeerIdInvalid
 import requests
 
-API_ID = 12345678  # Replace with your actual API_ID
-API_HASH = "your_api_hash"  # Replace with your actual API_HASH
+API_ID = 27246910
+API_HASH = "2220cdeac98f15c69fabe30b364de4e2" 
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
 app = Client("my_cinema_pro", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
@@ -22,7 +22,7 @@ note_text = "Please don't forget to start me first!"
 
 For any help, contact admin: @Dm_Anonymous  
 Enjoy your show!
-"""
+
 
 def shorten_link(original_url):
     try:
