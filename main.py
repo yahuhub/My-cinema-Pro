@@ -51,7 +51,10 @@ async def search_movie(_, message: Message):
                     try:
                         await message.from_user.send(f"**Movie Found:**" {query.title()}
 
-🔗 [Click Here]({short_link}) to download/view.")
+await message.from_user.send(
+    f"**Movie Found:** {query.title()}\n\n🔗 [Click Here]({short_link}) to download/view.",
+    disable_web_page_preview=True
+)
                         found = True
                     except PeerIdInvalid:
                         await message.reply("Please start the bot first by clicking the link below.")
